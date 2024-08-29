@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --header-margin: 25px;
+  --main-text-padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../images/showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-container {
+  text-align: center;
+  max-width: 300px;
+}
+
+.header-logo {
+  width: 180px;
+  height: 180px;
+  margin-bottom: var(--header-margin)
+}
+
+.header-title {
+  font-size: 2.2rem;
+  margin-bottom: var(--header-margin);
+}
+
+.header-text {
+  line-height: 1.7;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-black-bg {
+  background-color: #000;
+}
+
+
+.main-article {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.justify-content {
+  justify-content: space-around;
+}
+
+.section-title {
+  margin-top: var(--main-text-padding);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section-text {
+  margin-top: var(--main-text-padding);
+}
+
+.main-white-bg {
+  background-color: #fff;
+}
+
+.bg-laptop-icon {
+  color: #333;
+}
+
+.about-us__section {
+  color: #333;
+  text-align: left;
+  max-width: 470px;
+}
+
+.about-us__section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
