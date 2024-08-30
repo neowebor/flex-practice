@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Flex practice</title>
   </head>
   <body>
@@ -28,9 +28,9 @@
       </div>
     </header>
     <main class="main">
-      <div class="main-black-bg">
-        <article class="main-article">
-          <section class="main-section">
+      <div class="wrap-black-bg">
+        <div class="container">
+          <section class="section">
             <i class="fab fa-youtube fa-3x"></i>
             <h2 class="section-title">YouTube</h2>
             <p class="section-text">
@@ -38,7 +38,7 @@
               reiciendis!
             </p>
           </section>
-          <section class="main-section">
+          <section class="section">
             <i class="fas fa-chalkboard-teacher fa-3x"></i>
             <h2 class="section-title">Courses</h2>
             <p class="section-text">
@@ -46,7 +46,7 @@
               reiciendis!
             </p>
           </section>
-          <section class="main-section">
+          <section class="section">
             <i class="fas fa-briefcase fa-3x"></i>
             <h2 class="section-title">Freelancing Projects</h2>
             <p class="section-text">
@@ -54,16 +54,17 @@
               reiciendis!
             </p>
           </section>
-        </article>
-      </div class="main-black-bg">
-      <div class="main-white-bg">
-        <article class="main-article justify-content">
+        </div>
+      </div>
+
+      <div class="wrap-white-bg">
+        <div class="container jc-space-around">
           <i class="fas fa-laptop-code fa-10x bg-laptop-icon"></i>
-          <section class="main-section about-us__section">
+          <section class="section about-us__section">
             <h2 class="about-us__section-title">About Us</h2>
             <p class="about-us__section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eos aperiam labore consectetur maiores ea magni exercitationem similique laborum sed, unde, autem vel iure doloribus aliquid. Aspernatur explicabo consectetur consequatur non nesciunt debitis quos alias soluta, ratione, ipsa officia reiciendis.</p>
           </section>
-        </article>
+        </>
       </div>
     </main>
     <footer class="footer">
