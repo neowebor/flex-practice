@@ -6,7 +6,8 @@ body {
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --header-margin: 25px;
-  --main-text-padding: 20px;
+  --main-text-margin: 20px;
+  text-align: center;
 }
 
 .header {
@@ -21,7 +22,6 @@ body {
 }
 
 .header-container {
-  text-align: center;
   max-width: 300px;
 }
 
@@ -40,40 +40,37 @@ body {
   line-height: 1.7;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-black-bg {
+.wrap-black-bg {
   background-color: #000;
 }
 
+.wrap-white-bg {
+  background-color: #fff;
+}
 
-.main-article {
+.container {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  text-align: center;
-  padding: 70px 0;
+  padding: 70px 20px;
 }
 
-.justify-content {
+.jc-space-around {
   justify-content: space-around;
 }
 
+.section {
+  margin: 10px;
+}
+
 .section-title {
-  margin-top: var(--main-text-padding);
+  margin-top: var(--main-text-margin);
   font-weight: bold;
   font-size: 20px;
 }
 
 .section-text {
-  margin-top: var(--main-text-padding);
-}
-
-.main-white-bg {
-  background-color: #fff;
+  margin-top: var(--main-text-margin);
 }
 
 .bg-laptop-icon {
@@ -89,12 +86,11 @@ body {
 .about-us__section-title {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: var(--main-text-margin);
 }
 
 .footer {
-  background-color: #000;
-  text-align: center;
+  background-color: #333;
   padding: 40px;
 }
 
